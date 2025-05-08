@@ -26,12 +26,17 @@
         </tbody>
       </table>
     </section>
-
+    
     <!-- Seção de informações detalhadas de um pedido, inicialmente oculta -->
     <section id="info-pedido" style="display: none;">
       <h2>Informações do Pedido <span id="pedido-id"></span></h2>
 
-      
+      <!-- Exibição dos dados do cliente -->
+      <div class="cliente-info">
+        <h3>Dados do Cliente</h3>
+        <p><strong>Nome:</strong> <span id="cliente-nome"></span> | <strong>CPF:</strong> <span id="cliente-cpf"></span> | <strong>Data:</strong> <span id="pedido-data"></span></p>
+        <p><strong>E-mail:</strong> <span id="cliente-email"></span></p>
+      </div>
 
   </div>
 </body>
