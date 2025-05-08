@@ -36,3 +36,25 @@ table {
   overflow: hidden; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
+
+/* Estilos para as células de cabeçalho e dados */
+th, td {
+  padding: 12px; 
+  text-align: left; 
+  border-bottom: 1px solid #ddd; 
+}
+
+th {
+  background-color: #0d7bc5; 
+  color: #ffffff; 
+  font-weight: bold; 
+}
+
+td {
+  background-color: #ffffff; /* Fundo leve para as células */
+}
+
+tr:hover {
+  background-color: #e1e8f0; 
+  cursor: pointer; 
+}
