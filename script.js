@@ -86,3 +86,5 @@ async function mostrarDetalhesPedido(pedido, cliente, itens) {
   document.getElementById("total-pedido").textContent = `Total: R$ ${total.toFixed(2)}`;
 }
 
+// Chama a função para carregar os pedidos assim que a página é carregada
+carregarPedidos();
