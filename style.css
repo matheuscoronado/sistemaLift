@@ -58,3 +58,15 @@ tr:hover {
   background-color: #e1e8f0; 
   cursor: pointer; 
 }
+
+* Estilo para o total do pedido */
+#total-pedido {
+  font-size: 18px; 
+  font-weight: bold; 
+  text-align: right; 
+  background-color: #dd0c0c; 
+  color: #ffffff; 
+  padding: 10px;
+  border-radius: 5px; 
+  margin-top: 20px; 
+}
