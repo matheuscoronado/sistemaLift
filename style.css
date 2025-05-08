@@ -1,0 +1,18 @@
+/* Estilos gerais para o body */
+body {
+  font-family: 'Arial', sans-serif; 
+  background-color: #f4f4f9; 
+  margin: 0; 
+  padding: 20px;
+  color: #333; 
+}
+
+/* Container principal do sistema */
+.container {
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  background-color: #ffffff; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
