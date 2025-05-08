@@ -16,3 +16,23 @@ body {
   border-radius: 8px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
+
+/* Estilos para os títulos h2 */
+h2 {
+  margin-top: 40px; 
+  margin-bottom: 20px; 
+  font-size: 24px; 
+  color: #2c3e50; 
+  text-align: center; 
+}
+
+/* Estilos para as tabelas */
+table {
+  width: 100%; 
+  border-collapse: collapse; 
+  background-color: #ffffff; 
+  margin-bottom: 20px; 
+  border-radius: 8px; 
+  overflow: hidden; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
